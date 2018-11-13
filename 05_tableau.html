@@ -1,0 +1,88 @@
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/05_tableau.css">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Tableau</title>
+    </head>
+    <body>
+        <!-- L'Element HTM Table
+            Les tableaux en HTML doivent être utilisée pour organiser 
+            de façon logique les données.
+           
+            l'élement tr, pour <table row> ou <ligne de tableau>. 
+            en français va nous servir à introduire une ligne dans notre tableau.
+            
+            L"element TD, pour <table datas> ou <donnée de tableau>
+            en français va nous permettre d'ajouter des cellules dans nos lignes.
+             -->
+
+
+             <!-- Ouverture du tableau-->
+             <table>
+                 <!--titre du tableau (cellules fusionnées)-->
+                 <caption>Ventes</caption>
+
+                <!--en tête du tableau-->
+                <thead>
+                    <!--tr strang (t = tableau / r = row = rangée -->
+                    <tr>
+                        <th>Jour</th>
+                        <th>Smartphones</th>
+                        <th>Tablettes</th>
+                        <th>Portables</th>
+                     </tr>
+
+                </thead>
+                <!--tfoot = bas/fin du tableau      
+                /!\ les normes WJC mettent la balise Tfoot avant 
+                celle du corps du tableau tbody-->
+                <tfoot>
+                    <!--tr strong ( t tableau / r= row = rangée)-->
+                    <tr>
+                        <td>Total</td>
+                        <td>22</td>
+                        <td>26</td>
+                        <td>24</td>
+                    </tr>
+
+                </tfoot>
+                <!--tbody = corps du tableau-->
+            <tbody>
+                <tr>
+                        <td>Lundi</td>
+                        <td>2</td>
+                        <td>6</td>
+                        <td>8</td>
+                </tr>
+                <tr>
+                        <td>Mardi</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>1</td>
+                </tr>
+                <tr>
+                        <td>Mercredi</td>
+                        <td>6</td>
+                        <td>1</td>
+                        <td>4</td>
+                </tr>
+                <tr>
+                        <td>Jeudi</td>
+                        <td>12</td>
+                        <td>10</td>
+                        <td>8</td>
+                </tr>
+
+                <tr>
+                        <td>Vendredi</td>
+                        <td>2</td>
+                        <td>6</td>
+                        <td>7</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

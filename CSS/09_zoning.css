@@ -1,0 +1,46 @@
+#Zoning_exo{
+    margin:0% auto;
+    width: 80%;
+    border: 2px solid darkslategray;
+}
+
+header{
+    height: 100px;
+    background-color: #8e3557;
+
+    
+}
+nav{
+    height: 30px;
+    background-color: #4a1a24;
+}
+
+section{
+    height: 500px;
+    margin: 20px;
+    background-color: #787746;
+}
+
+footer{
+    background-color: #4a1a2c;
+    height: 100px;
+}
+    
+.violet, .bleu, .jaune,.vert{
+    height: 250px;
+    width: 50%;
+    float: left;
+      
+}
+.violet{
+    background-color: #4a1a2c;
+}
+.vert{
+    background-color: #787746;
+}
+.jaune{
+    background-color: #e6e2af;
+}
+.bleu{
+    background-color: lightblue;
+}

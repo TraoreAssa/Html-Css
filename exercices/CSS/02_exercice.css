@@ -1,0 +1,61 @@
+
+
+.vert{
+    background: green;
+    height:5em;
+    float: left;
+    border: 0.1em solid;
+    border-radius: 10% 20% 30% 40% ;
+    width: 5em;
+    text-align: center;
+
+}
+.bleuc{
+    background:#33f9ff;
+    float: left;
+    height:5em;
+    border: 0.1em solid;
+    border-radius: 40% 0%;
+    width: 5em;
+    text-align: center;
+}
+.vertp{
+    background: #33ff42;
+    float: left;
+    height:5em;
+    border: 0.1em solid;
+    border-radius: 50%;
+    width: 5em;
+    text-align: center;
+}
+
+.rose{
+    background: #ff33d1;
+    float: left;
+    height:5em;
+    border: 0.1em solid;
+    border-radius:20% 40%;
+    width: 5em;
+    text-align: center;
+}
+.rouge{
+    background: red;
+    float: left;
+    height: 5em;
+    border: 0.1em solid;
+    border-radius: 20% 40%;
+    width: 5em;
+    text-align: center;
+}
+.rien{
+    float: left;
+    height: 5em;
+    border-radius: 25%;
+    width: 5em;
+    text-align: center;
+    
+}
+.clear{
+        clear: both;
+       
+}

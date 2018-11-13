@@ -1,0 +1,64 @@
+body{
+    margin: 0 auto;
+    background-color: antiquewhite
+}
+div{
+    width: 90%;
+    margin: 0 auto;
+    background-color: lightsteelblue
+}
+.boite{
+    height: 11vh;
+    width: 18vh;
+    padding: 5vh;
+    background: url(../IMG/Chat.jpg);
+    background-repeat: no-repeat;
+    border: 5px double green; 
+    /*taille, style, couleur de bordure*/
+    margin: 2vh;
+    float: left;
+    /*effet flottant, permet de placer les balises
+    côte a côte alors que selon le flux du web 
+    standard les éléments se placent les uns au-dessus des autres*/
+    transition: marging 0.5s;
+
+}
+.boite:hover{
+    /*la pseudo-class: hover modifie un affichage au survol de la souris*/
+    /* fait bouger l'image quand la souris est dessus*/
+    margin-top: 10vh;
+}
+
+.clear{
+ clear: both; /*Pour mettre a la ligne (ici 4 en haut et 3 en dessous voir html */
+}
+
+p{
+    background-color: lightblue;
+}
+
+p span{/* selectionne les span contenus dans des p*/
+background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

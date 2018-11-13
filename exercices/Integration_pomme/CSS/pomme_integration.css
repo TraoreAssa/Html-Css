@@ -1,0 +1,23 @@
+section{
+    width: 60%;
+    height: 700%;
+    border: 1px solid greenyellow;
+    border-top: 25px lightgreen;
+    border-bottom: 25px lightgreen;
+
+}
+.gauche{
+    float: left;
+}
+
+.droite{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+nav{
+    text-decoration-style: lightgreen;
+}

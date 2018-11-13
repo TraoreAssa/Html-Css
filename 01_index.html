@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<!--DOCTYPE est la première balise obligatoire ds une page HTML :
+
+    Elle désigne le type de document pour le navigateur-->
+
+<html lang="FR"><!--lanue de la page-->
+
+<head><!--la balise HEAD contient les paramètres de la page HTML qui sont invisible pour l'internautes-->
+
+   <meta charset="UTF-8">
+   <!--encodage des caractères pour la gestion des caractères spéciaux-->
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--contrôler la mise en page sur les navigateurs mobiles 
+    ici le 1.0 signifie qu'il n'y a pas de zoom-->
+
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <!--compatibilité avec le navigateur edge-->
+
+   <meta name="author" content="Assa">
+   <!--auteur du site-->
+
+   <meta name="description" content="Ma première page HTML">
+   <!--description ss le titre ds la recherche google-->
+
+   <title>Assa</title><!--titre du site apparaissant ds l'onglet et en resultat de recherche google-->
+
+   <link rel="stylesheet" href="CSS/01_index.css">
+   <!--relie le fichier HTML au fichier de mise en forme
+
+   CSS(cascading style sheeets-->
+
+   <link rel="stylesheet" href="https://fonts.gooleapis.com/css?family=Indie=flower">
+   <!--lien pour les polices utilisées ici via "google-Font"-->
+
+   <link rel="stylesheet" href="https://fonts.gooleapis.com/css?family=Josrphin=Sans">
+   <!--idem-->
+
+</head>
+
+<body>
+
+   <!--Corps de la page-->
+
+   C'est ma première page web ! le navigateur affiche le texte, mes images, ... contenus ds le bloc de ma
+
+   balise &lt;<body>
+
+       <!--&lt; permet d'afficher ma balise html ds le navigateur, si je mets un chevron normalement
+
+       ma balise sera interprétée par le navigateur ce qui n'est pas ce que je veux ici-->
+
+       <!--Les titres-->
+
+       <h1>Titre 1</h1>
+
+       <h2>Titre 2</h2>
+
+       <h3>Titre 3</h3>
+
+       <h4>Titre 4</h4>
+
+       <h5>Titre 5</h5>
+
+       <h6>Titre 6</h6>        
+
+       <p>les paragraphes sont délimités par les balises lt;p></p> 
+       <!--paragraphe préformaté-->       
+       <p>Ceci est un paragraphe</p>
+       <pre>Les numériques de Poissy 2018</pre>
+
+       <p>Les numériques de VLG 2018</p>        
+       <!--Les retour a la ligne-->
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nesciunt a tempora nihil
+
+       <br/>
+
+       optio dolor hic, odio, eaque ad perspiciatis repellat blanditiis dolore beatae deserunt
+
+        soluta dicta qui, possimus incidunt.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel voluptates ducimus.
+
+        Iusto cum sapiente laudantium quis nobis similique<br/>
+
+        consequuntur vel nesciunt, aut voluptate minus dignissimos soluta debitis suscipit aperiam!</p> 
+        <!--la disposition-->        
+
+   <p style="text-align: right">Ce paragraphe sur deux<br/> lignes est disposéà droite</p>
+
+   <p style="text-align: center">Ce paragraphe sur deux <br/>lignes est disposé au centre</p>
+
+   <p style="text-align: left">Ce paragraphe sur deux <br/>lignes est disposé à gauche</p>
+
+   <p style="text-align: justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+
+    Repellat necessitatibus expedita obcaecati veniam exercitationem quasi qui saepe! Non voluptatum,<br/>
+
+    enim, maxime necessitatibus ratione, ipsam rerum soluta iusto eligendi quis mollitia.</p>
+
+    <br/> Ce paragraphe est aligné a droite et a gauche </p> 
+    <p> 
+        voici la structure de base d'une page HTML /<br/>
+        
+        &lt;!DOCTYPE html><br />
+        &lt;HTML><br />
+        &lt;head><br />
+        &lt;title></title><br />
+        &lt;/head><br /><br />
+        &lt;body><br /><br />
+        &lt;body><br />
+        </html>
+    
+
+
+    </p>
+Quel est le rôle de ma balise? <hr />
+<p>
+<hr />
+</p>
+Elle insère une ligne séparatrice dans ma page HTML. <br />Elle est auto-fermante (ou orpheline)... à ne pas confondre avec la balise &lt;br /> est effectue un retour a la ligne.
+
+<!-- La mise en valeur-->
+
+<!--STRONG-->
+<p>
+    Bonjour, ceci est mon premier fichier en HTML alors <strong>soyez indulgents</strong> SVP!</p>
+
+    <!-- EM petite mise en valeur!-->
+<p>
+    Bonjour, ceci est mon premier ficher en HTML alors <em>soyez indulgents SVP!</em>
+
+    <!--MARK fait ressortir visuellement une portion de texte-->
+<p>
+    Bonjour, ceci est mon premier fichier en HTML alors </mark>soyer indulgents</mark> SVP!
+</p>
+
+<!-- Les listes -->
+<!-- non ordonnée (à puces) -->
+</ul>
+<!-- ordonnée ( numérotée) -->
+<ol>
+<li>chat</li>
+<li>Chien</li>
+<li>Cheval</li>
+</ol>
+<!--les couleurs-->
+<p style="color:crimson">H</p>
+<p style="color:lightseagreen">T</p>
+<p style="color:darkgreen">M</p>
+<p style="color:navy">L</p>
+<br />
+<p style="color:#dc143c">H</p>
+<p style="color:#20b2aa">T</p>
+<p style="color:#006400">M</p>
+<p style="color:#000080">L</p>
+
+<!-- La couleur du fond -->
+<p style="background-color:cyan">Bonjour</p>
+<p style="background-color:pink">Hello</p>
+<p style="background-color:black; color:yellow">Bongiorno</p>
+
+<!-- Les liens -->
+    <!-- Pour charger un fichier -->
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="css/nav_footer.css" type="text/css" />
+    <link rel="stylesheet" href="css/style_content.css" type="text/css" />
+    <!-- Pour accéder à une URL (site web) -->
+    <a href="http://colorhunt.co/">Site web color hunt</a>
+
+<!-- Les images -->
+<img src="data:image/jpeg;base64,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" />
+<img src="img/siamois.jpg" alt="un chat de type siamois" />
+
+
+    </body>    
+</html>
+

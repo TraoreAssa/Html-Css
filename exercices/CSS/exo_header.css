@@ -1,0 +1,13 @@
+
+header{
+    background: palevioletred;
+    height: 8em;
+}
+
+footer{
+    background: palevioletred;
+    height: 8em;
+    width: 99%;
+    position: absolute;
+    bottom: 0;
+}
