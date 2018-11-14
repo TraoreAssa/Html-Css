@@ -1,0 +1,73 @@
+.contenu{
+    background: gray;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid aquamarine ;
+    border-radius: 20px;
+    width: 65%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header hr{
+    width: 100%;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 28px;
+    text-align: left;
+    padding: 2px 15px;
+}
+h3{
+    font-size: 23px
+}
+header p{
+    font-size: 35px;
+}
+nav{
+    padding: 20px;
+    margin-bottom:10px; 
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    background: aquamarine;
+    border:1px solid;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 10px;
+}
+nav hr{
+    width: 70%
+}
+section{
+    padding: 10px;
+    width: 75%;
+    float: left;
+}
+#experience h2{
+    text-align: right;
+}
+.moi{
+    margin-top: 50px;
+}
+.moi, .loisir{
+    border-left: 1px solid;
+    border-radius: 10px;
+    background: aquamarine;
+    text-align: center;
+    margin-left: 80%;  
+    padding: 25px;
+}
+.clear{
+    clear: both;
+}
+footer{
+    padding: 30px;
+}
+footer a{
+    display: block;
+    text-align: left;
+}

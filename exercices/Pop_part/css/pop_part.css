@@ -1,0 +1,122 @@
+body{
+    /* background: url(../img/fond.jpg); */
+   
+    margin: auto;
+}
+.contenu{
+    background: black;
+    margin: 0 auto;
+    width: 60%;
+    height: 100%;
+    color: white; 
+   
+}
+.rouge{
+    height: 35px;
+    font-size: 20px;
+    padding: 5px 25px;
+    background: red;
+    text-align: right;
+     
+}
+.rouge a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+nav{
+    background: white;
+    height: 60px;
+    padding-top:25px; 
+    text-align: right;
+    
+}
+nav a{
+    text-decoration: none;
+    color: rgb(138, 12, 12);
+    font-size: 15px;
+    padding: 2px 10px;
+    font-weight: bold;
+}
+main{
+    padding: 20px;
+}
+.projet{
+    float: left;
+    width: 50%;
+    padding: 50px;
+    padding-right:20px;
+    /* margin: 10px  */
+}
+.commons{
+    padding: 30px ;
+}
+.commons a, .projet a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    margin-top: 70px;
+    margin: 100px;
+}
+.clear{
+    clear: both;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row; 
+}
+.flex div{
+    width: 250px;
+    height: 200px;
+    background:rgb(138, 12, 12);
+    border: 10px solid white;
+    text-align: center;
+    font-size: 25px;
+    color:black;
+    padding: 10px;
+}
+.flex p{
+    font-size: 15px;
+    padding-top: 25px;
+    color: white;
+}
+mark{
+    background: rgb(138, 12, 12);
+    color: white;
+}
+.programme{
+    height: 100%;
+    background: white;
+    color: blue;
+    text-align: center;
+    padding-bottom:10px; 
+    
+}
+h3{
+    font-size: 50px;
+    color: rgb(119, 119, 200);
+    
+}
+.programme span{
+    color: blue;
+    font-size: 65px;
+}
+footer{
+    color: rgb(138, 12, 12);
+    background: black;
+    height: 200px;
+    /* padding: 20px; */
+
+}
+footer p{
+    float: left;
+    top: 10px;
+}
+footer i{
+position: absolute;
+bottom: 0;
+margin: 0 30px;
+}

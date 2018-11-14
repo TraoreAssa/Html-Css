@@ -1,0 +1,25 @@
+.chat{
+    background-color: #28387B;
+    border-radius: 10px;
+    width: 900px;
+    height: 900px;
+    margin: 0 auto;
+}
+.titre{
+    padding-left: 200px;
+}
+.ligne1, .ligne2, .ligne3{
+    margin: 30px;
+}
+.ligne1{
+    padding-left: 80px;
+}
+.ligne2{
+    padding-left: 100px;
+}
+.ligne3{
+    padding-left: 220px;
+}
+.clear{
+    clear: both;
+}
