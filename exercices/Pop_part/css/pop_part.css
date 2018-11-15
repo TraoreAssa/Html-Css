@@ -1,5 +1,5 @@
 body{
-    /* background: url(../img/fond.jpg); */
+    background: url(../img/imagefond.jpg);
    
     margin: auto;
 }
@@ -52,6 +52,9 @@ main{
 .commons{
     padding: 30px ;
 }
+/* #comite , #equipe{
+    float: left;
+} */
 .commons a, .projet a{
     text-decoration: none;
     color: white;

@@ -1,0 +1,13 @@
+body{
+    margin: 0 auto;
+}
+div{
+    position: relative;
+}
+.hello{
+    color: red;
+    position: absolute;/* La CLASS a une position absolue par rapport au body dans lequel il est et en fonction du navigateur. Au contraire une position relative qui va etre en fonction du conteneur dans lequel il est*/
+    right: 0;
+    bottom: 0;
+    font-weight: bold;
+}
