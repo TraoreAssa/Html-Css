@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Ruslan+Display');
+
+body{
+    background: url(green_bg.jpg) repeat;
+}
+
+nav{
+    /* police d'écriture => font-size et line-height 20px/1*/
+    font-family: 'Kaushan Script', cursive;
+    /* background: #000; */
+    /* background-image: linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);; */
+    background: #37505c;
+    color: #ffe5d4;
+    padding: 0 0.5em;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0; /* position à partir du haut de l'écran*/
+    left: 0; /* position à partir de la gauche de l'écran*/
+    margin: 0;
+}
+
+nav a{ /* tous les liens à l'intérieur de la balise nav */
+    float: left; /* effet flottant à gauche */
+    text-decoration: none; /* pas d'héritage avec effet souligné comme c'est standard pour les liens sous tous les navigateurs */
+    background: #37505c;
+    color: #ffe5d4;
+    height: 2.8em; /* hauteur de la nav */
+    line-height: 2.7em; /* interligne */
+    padding: 0em 2em; /* marges intérieures - on les fait dans le sens des aiguilles d'une montre par convention (haut, droite, bas, gauche) */
+    font-size: 1.2em; /* taille du texte */
+    transition: 2s;/* temps de transition lors du hover (survol de la souris) : ici 2 secondes */
+}
+nav a:hover{/* tous les liens au survol de la souris dans la nav */
+    background: #f75f8e; /* couleur de fond */
+    color: #ffe5d4; /* couleur du texte */
+}
+nav a:focus{
+    background: #ffe5d4; /* couleur de fond */
+    color: #96616b; /* couleur du texte */
+}
+
+/**
+* Menu vertical
+*/
+
+.menu{
+    font-family: 'Ruslan Display', cursive;
+    font-size: 1.5rem;
+    margin-top: 25vh;
+    background: #cdcdcd;
+    color: #3b252c;
+    border-radius: 10px;
+    width: 10%;
+}
+.menu a{/*sélection des liens imbriqués dans la class .menu*/
+    display: block;/*toute la largeur nÃ©cessaire*/
+    border-bottom: 0.2em solid #aea4bf;
+    padding: 0.5em;
+    text-decoration: none;/*supprime l'hÃ©ritage de soulignÃ© des liens*/
+    color: #3b252c;
+}
+.menu div{/*mise en forme de la <div> ayant la class .menu*/
+    border-bottom: 0.2em solid #aea4bf;
+    font-size: 1em;
+    margin: 0;
+    padding: 0.5em 0;
+    text-align: center;
+    display: block;
+    background: #8f6593;
+    color: #e3e4db;
+    border-radius: 10px 10px 0 0;
+}
+.menu a:hover{/*tous les liens contenus dans la <div> de class .menu au survol*/
+    background: #8f6593;
+    color: #e3e4db;
+}
+.menu a:last-child{
+    border: 0;/*pas de bordure pour le dernier lien*/
+}
+.menu a:hover:last-child{
+    border-radius: 0 0 10px 10px;/*arrondi des angles au survol de la souris pour Ã©viter de dÃ©border du cadre du menu*/
+}
+
+.Houda:focus {
+  background: yellow;
+  color: red;
+}
+
+.Jaadar:focus {
+  background: yellow;
+  color: lime;
+}
+
+input{
+    width: 15%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: bolder;
+}

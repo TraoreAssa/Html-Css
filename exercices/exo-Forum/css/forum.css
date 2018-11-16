@@ -1,0 +1,50 @@
+body{
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Rock Salt', cursive;
+    
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+p{
+    border: 2px dashed red;
+    font-size: 20px;
+    padding: 24px 5px;
+    width: 800px;
+    vertical-align: middle;
+    margin-top: 80px; 
+ 
+}
+.demoniste, .chaman, .demoniste1, .chaman1 {
+    display: inline-flex;
+    margin: 5px;
+    /* padding: 10px 20px; */
+    width: 81%;
+    margin: 0 auto;
+    /* height: 345px; */
+}
+img{
+    width: 30%;
+}
+.demoniste, .demoniste1{
+    text-transform: uppercase;
+    overflow: hidden;
+    
+}
+.chaman1{
+    font-weight: bolder;
+}
+.c{
+    height: 300px;
+    width: 216.65px;
+}
+.demoniste1 img, .demoniste img {
+    width: 138%;
+    margin-top: 65px;
+}
+/* .a{
+    height: 1px;
+    width: 1px; 
+} */
