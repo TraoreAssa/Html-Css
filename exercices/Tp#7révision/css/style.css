@@ -1,0 +1,136 @@
+body{
+    width: 80%;
+    margin: auto;
+}
+header img{
+    float: left;
+}
+#menuDeroulant{
+    height: 150px;
+    margin: 20px 
+}
+#menuDeroulant nav{
+    background: transparent;
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+}
+#menuDeroulant nav ul li{
+    float: left;
+    list-style: none;
+    width: 10%;
+}
+#menuDeroulant ul ul{/*Les Listes qui sont dans Les Listes*/
+    display: none;
+}
+#menuDeroulant nav ul li ul li{
+    width: 100%;
+}
+#menuDeroulant nav li a{
+    text-decoration: none;
+    color: #000;
+    padding: 4px 0 4px;
+    display: block;
+}
+#menuDeroulant nav ul.niv1 li.sousMenu:hover ul.niv2{
+    display: block;
+}
+.presentation{
+    background: url(../img/symfony-13-09-18_1-768x576.jpeg) no-repeat;
+    height: 600px;
+    color: white;
+    float: left;
+}
+.presentation figcaption{
+    font-weight: bold;
+    background: blue;
+    height: 577px;
+    width: 770px;
+    margin-left: -40px;
+    opacity: 0.5;
+    margin-top: -20px;
+}
+
+.clear{
+    clear: both;
+}
+.icones i{
+    float: left;
+}
+.lieu{
+    background: rgb(17, 79, 151);
+}
+.video{
+    width: 80%; 
+    margin: 0 auto;
+    font-size: 25px;
+    color: rgb(54, 141, 141);
+}
+.video span{
+    color: black;
+    font-size: 20px
+}
+iframe{
+    float: left;
+}
+.info figure{
+    width: 250px;
+    height: 200px;
+    float: left;
+    overflow: hidden;
+}
+
+.info figure img{
+    overflow: hidden;
+}
+.partenaires{
+    width: 50%;
+    margin: 0 auto;
+    height: 300px;
+}
+.partenaires h4{
+    font-size: 30px;
+    text-align: center;
+}
+.partenaires img{
+    padding: 65px 39px;
+}
+footer{
+    background: black;
+    height: 100%;
+}
+footer img{
+    float: left;
+    padding: 50px 97px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    padding:10px;
+}
+.float a{
+    text-decoration: none;
+    color: rgb(9, 125, 98);
+    display: block;
+}
+footer h4, footer span{
+    color: white;
+}
+.float{
+    float: left;
+    /* padding: 20px; */
+    margin: 18px;
+    line-height: 2;
+}
+.mouvement{
+    background: rgb(9, 125, 98);
+    text-decoration: none;
+    color: black;
+    width: 232px;
+    float: right;
+    font-size: 20px;
+    margin-right: 50px;
+    height: 300px;
+    text-align: center;
+    padding: 25px 20px;
+}
